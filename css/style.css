@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  padding: 20px 0;
+  background-color: white;
+}
+
+h2 {
+  color: #009966;
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.link1 {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 100px;
+}
+
+.link2 {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 200px;
+}
+
+span {
+  margin: 0 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+span:hover {
+  color: #009966;
+}
+.button {
+  color: white;
+  background-color: #009966;
+  padding: 10px 30px;
+  border: hidden;
+  border-radius: 3px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: translateY(5px);
+}
+
+.body {
+  background-image: url(https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2069&q=80);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h1 {
+  color: #009966;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.content p {
+  width: 400px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  line-height: 1.7;
+}
+
+.content {
+  width: 920px;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.6px;
+}
